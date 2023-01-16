@@ -70,7 +70,7 @@ class Board extends React.Component {
     );
   }
 }
-
+/*
 class Game extends React.Component {
   render() {
     return (
@@ -79,13 +79,13 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
+          <div>{/* status *//*}</div>
+          <ol>{/* TODO *//*}</ol>
         </div>
       </div>
     );
   }
-}
+}*/
 
 function calculateWinner(squares) {
   const lines = [
@@ -110,4 +110,4 @@ function calculateWinner(squares) {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Game />);
+root.render(<Board />);
